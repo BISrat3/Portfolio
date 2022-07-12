@@ -1,0 +1,38 @@
+.homeImg {
+    background-image: url(./img/GAbackground.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 99.1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeName {
+    text-align: center;
+    text-shadow: 0px 3px 3px#1e1e1c;
+    font-size: 2.3rem;
+    font-weight: 600;
+    letter-spacing: 12px;
+    margin-bottom: 7%;
+}
+
+.homeTitle {
+    text-shadow: 0px 3px 3px#1e1e1c;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+@media (min-width: 600px) {
+    .homeImg {
+        background-size: cover;
+    }
+
+    .homeName, .homeTitle {
+        text-shadow: 0px 4px 4px#1e1e1c;
+    }
+}
