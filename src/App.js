@@ -11,11 +11,11 @@ function App() {
       <Navigation />
       <div className={styles.homeImg}>
         <div>
-          <h1 className={styles.homeName}>JEREMIAH LEE</h1>
+          <h1 className={styles.homeName}>Bisrat Amtataw</h1>
           <h2 className={styles.homeTitle}>SOFTWARE ENGINEER</h2>
         </div>
       </div>
-      <Technologies />
+      {/* <Technologies /> */}
       <Projects />
       <About />
     </main>
