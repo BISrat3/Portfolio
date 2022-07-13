@@ -28,11 +28,11 @@ function Navigation() {
                             <a href='#skills' className={styles.aTagNav}><li className={styles.jumpLink}>SKILLS</li></a>
                             <a href='#projects' className={styles.aTagNav}><li className={styles.jumpLink}>PROJECTS</li></a>
                             <a href='#about' className={styles.aTagNav}><li className={styles.jumpLink}>ABOUT</li></a>
-                            <a href={Bisrat} download='Jeremiah_Lee_Resume' target='_blank' rel='noreferrer' className={styles.aTagNav}><li className={styles.resumeLink}>CV</li></a>
+                            <a href={Bisrat} download='Bisrat' target='_blank' rel='noreferrer' className={styles.aTagNav}><li className={styles.resumeLink}>CV</li></a>
                             <li className={styles.otherLink}>
-                                <a href='https://github.com/leejoonli' target='_blank' rel='noreferrer' className={styles.aTag}><img src={github} alt="Link to Jeremiah's Github" className={styles.imgLink} /></a>
-                                <a href='https://www.linkedin.com/in/jhwlee/' target='_blank' rel='noreferrer' className={styles.aTag}><img src={linkedIn} alt="Link to Jeremiah's LinkedIn" className={styles.imgLink} /></a>
-                                <a href='mailto:jhwlee94@gmail.com' className={styles.aTag}><img src={gmail} alt="Send Jeremiah an email" className={styles.imgLink} /></a>
+                                <a href='https://github.com/BISrat3' target='_blank' rel='noreferrer' className={styles.aTag}><img src={github} alt="Link to Bisrat's Github" className={styles.imgLink} /></a>
+                                <a href='https://www.linkedin.com/in/bisrat-menberu/' target='_blank' rel='noreferrer' className={styles.aTag}><img src={linkedIn} alt="Link to Bisrat's LinkedIn" className={styles.imgLink} /></a>
+                                <a href='mailto:bisrat.amtataw@gmail.com' className={styles.aTag}><img src={gmail} alt="Send Bisrat an email" className={styles.imgLink} /></a>
                             </li>
                         </ul>
                     </>
