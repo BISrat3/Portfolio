@@ -3,7 +3,7 @@ import github from './img/github.png';
 import linkedIn from './img/linkedin.png';
 import gmail from './img/gmail.png';
 import styles from './Navigation.module.css';
-import Bisrat from './file/Bisrat.pdf';
+// import Bisrat from './Document/Bisrat.pdf'
 
 function Navigation() {
     const [showNav, setshowNav] = useState(false);
@@ -28,7 +28,7 @@ function Navigation() {
                             <a href='#skills' className={styles.aTagNav}><li className={styles.jumpLink}>SKILLS</li></a>
                             <a href='#projects' className={styles.aTagNav}><li className={styles.jumpLink}>PROJECTS</li></a>
                             <a href='#about' className={styles.aTagNav}><li className={styles.jumpLink}>ABOUT</li></a>
-                            <a href={Bisrat} download='Bisrat' target='_blank' rel='noreferrer' className={styles.aTagNav}><li className={styles.resumeLink}>CV</li></a>
+                            {/* <a href={Bisrat} download='Bisrat' target='_blank' rel='noreferrer' className={styles.aTagNav}><li className={styles.resumeLink}>CV</li></a> */}
                             <li className={styles.otherLink}>
                                 <a href='https://github.com/BISrat3' target='_blank' rel='noreferrer' className={styles.aTag}><img src={github} alt="Link to Bisrat's Github" className={styles.imgLink} /></a>
                                 <a href='https://www.linkedin.com/in/bisrat-menberu/' target='_blank' rel='noreferrer' className={styles.aTag}><img src={linkedIn} alt="Link to Bisrat's LinkedIn" className={styles.imgLink} /></a>

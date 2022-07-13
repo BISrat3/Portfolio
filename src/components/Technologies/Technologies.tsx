@@ -1,71 +1,68 @@
-import React from 'react';
-// import styles from './Projects.module.css';
-// import towerOfHanoi from './img/tower_of_hanoi.png';
-// import dnd from './img/dnd.png';
-// import felp from './img/felp.png';
-// import expense from './img/expense_tracker.png';
-// import hr from './img/hr.png';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import styles from './Technologies.module.css';
+import js from './img/js.png';
+import python from './img/python.png';
+import html from './img/html.png';
+import css from './img/css.png';
+import react from './img/react.png';
+import mongodb from './img/mongodb.png';
+import express from './img/express.png';
+import sql from './img/sql.png';
+import ts from './img/ts.png';
 
-// function Projects() {
-//     return (
-//         <div className={styles.projectComponentContainer} id='projects'>
-//             <h1 className={styles.headerOne}>PROJECTS</h1>
-//             <div className={`${styles.projectContainer} ${styles.project4}`} data-aos='flip-left' data-aos-once='true'>
-//                 <div className={styles.projectImgContainer}><img src={expense} alt='Expense tracker application state' className={styles.projectImg} /></div>
-//                 <div className={styles.project}>
-//                     <h2 className={styles.projectHeader}>Expense Tracker</h2>
-//                     <p className={`${styles.projectDesc} ${styles.projectFourDesc}`}>This application is a basic expense tracker to keep tabs on your spending.  You can create, read, update, and delete any post that you input.  The backend database is hosted on Heroku and uses Django, Python, and the Django Rest Framework.  The frontend is created using React Native and Typescript.  Follow the viewing instructions on GitHub to view and use the application.</p>
-//                     <div className={styles.projectLinkContainer3}>
-//                         <a href='https://expo.dev/@leejoonli/expense-tracker' target='_blank' rel='noreferrer' className={styles.projectLink}>Application</a>
-//                         <a href='https://github.com/leejoonli/expense-tracker' target='_blank' rel='noreferrer' className={styles.projectLink}>Frontend</a>
-//                         <a href='https://github.com/leejoonli/expense-tracker-backend' target='_blank' rel='noreferrer' className={styles.projectLink}>Backend</a>
-//                     </div>
-//                 </div>
-//             </div>
-//             <div className={styles.projectContainer} data-aos='flip-left' data-aos-once='true'>
-//                 <div className={styles.projectImgContainer}>
-//                     <img src={felp} alt='Application State' className={styles.projectImg} />
-//                 </div>
-//                 <div className={styles.project}>
-//                     <h2 className={styles.projectHeader}>FELP</h2>
-//                     <p className={`${styles.projectDesc} ${styles.projectThreeDesc}`}>FELP is a blog style food review application to document the hottest spots to go to eat.  The idea is verified locals who have lived in a certain area for an extended period of time would suggest the bets local restaraunts for tourists to go.  The application has full CRUD functionaliy for registered users.  Frontend created using React, Javascript, CSS, with requests handled using Axios.  Backend created with MongoDB, Mongoose, Express, with user authentication being handled by Passport.  Feel like a local even when you're out of town.</p>
-//                     <div className={styles.projectLinkContainer3}>
-//                         <a href='https://felp-official.netlify.app/' target='_blank' rel='noreferrer' className={styles.projectLink}>Application</a>
-//                         <a href='https://github.com/leejoonli/felp-frontend' target='_blank' rel='noreferrer' className={styles.projectLink}>Frontend</a>
-//                         <a href='https://github.com/leejoonli/felp-backend' target='_blank' rel='noreferrer' className={styles.projectLink}>Backend</a>
-//                     </div>
-//                 </div>
-//             </div>
-//             <div className={`${styles.projectContainer} ${styles.projectTwo}`} data-aos='flip-left' data-aos-once='true'>
-//                 <div className={styles.projectImgContainer}>
-//                     <img src={dnd} alt='Application State' className={styles.projectImg} />
-//                 </div>
-//                 <div className={styles.project}>
-//                     <h2 className={styles.projectHeader}>Dungeons and Dragons 5e Guide</h2>
-//                     <p className={styles.projectDesc}>This application is a straightforward access point for one of greatest table top role playing games currently in existence, if not THE greatest.  Browse through the application and see what catches your eye.  Built using React, React Bootstrap, React Router, JavaScript, CSS, and deployed on Netlify.</p>
-//                     <div className={styles.projectLinkContainer}>
-//                         <a href='https://dungeons-and-dragons-5e-guide-6b812b.netlify.app/' target='_blank' rel='noreferrer' className={styles.projectLink}>Application</a>
-//                         <a href='https://github.com/leejoonli/dungeons-and-dragons-5e-guide' target='_blank' rel='noreferrer' className={styles.projectLink}>Repository</a>
-//                     </div>
-//                 </div>
-//             </div>
-//             <div className={styles.projectContainer} data-aos='flip-left' data-aos-once='true'>
-//                 <div className={styles.projectImgContainer}>
-//                     <img src={hr} alt='Application State' className={styles.projectImg} />
-//                 </div>
-//                 <div className={styles.project}>
-//                     <h2 className={styles.projectHeader}>Human Resources Database</h2>
-//                     <p className={styles.projectDesc}>MVC application of a human resources department database created using Python, PostgreSQL, and Django.  Establish multiple tables with interconnecting many-to-many and one-to-many relationship structure which are all accessible through the Django admin site and have full CRUD capabilities.</p>
-//                     <div className={styles.projectLinkContainer}>
-//                         <a href='https://radiant-headland-38660.herokuapp.com/employees/' target='_blank' rel='noreferrer' className={styles.projectLink}>Application</a>
-//                         <a href='https://github.com/leejoonli/python-postgres-db-1' target='_blank' rel='noreferrer' className={styles.projectLink}>Repository</a>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// }
+function Technologies() {
+    useEffect(() => {
+        AOS.init({ duration: 500 });
+    }, []);
 
-// export default Projects;
+    return (
+        <div className={styles.techContainer} id='skills'>
+            <h1 className={styles.techHeading}>LANGUAGES</h1>
+            <div className={styles.languages}>
+                <div className={styles.iconContainer}>
+                    <img src={js} alt="JavaScript Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>JavaScript</h2>
+                </div>
+                <div className={styles.iconContainer}>
+                    <img src={ts} alt="Typescript Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>TypeScript</h2>
+                </div>
+                <div className={styles.iconContainer}>
+                    <img src={python} alt="Python Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>Python</h2>
+                </div>
+                <div className={styles.iconContainer}>
+                    <img src={html} alt="HTML Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>HTML</h2>
+                </div>
+                <div className={styles.iconContainer}>
+                    <img src={css} alt="CSS Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>CSS</h2>
+                </div >
+            </div>
+            <h1 className={styles.techHeading2}>FRAMEWORKS</h1>
+            <div className={styles.frameworks}>
+                <div className={styles.iconContainer}>
+                    <img src={react} alt="React Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>React</h2>
+                </div>
+                <div className={styles.iconContainer}>
+                    <img src={mongodb} alt="MongoDB Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>MongoDB</h2>
+                </div>
+                <div className={styles.iconContainer}>
+                    <img src={express} alt="Express Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>Express</h2>
+                </div>
+                <div className={styles.iconContainer}>
+                    <img src={sql} alt="SQL Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>SQL</h2>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Technologies;
