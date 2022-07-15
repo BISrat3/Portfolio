@@ -48,7 +48,7 @@
 
 .otherLink {
     display: flex;
-    padding: 2% 6% 4%;
+    padding: 1% 3% 2%;
 }
 
 .aTag {
@@ -99,7 +99,7 @@
 
     .otherLink {
         padding: 0%;
-        width: 20%;
+        width: 6%;
     }
 
     .aTag {
