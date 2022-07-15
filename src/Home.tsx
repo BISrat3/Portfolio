@@ -16,9 +16,9 @@ function App() {
           <h2 className={styles.homeTitle}>SOFTWARE ENGINEER</h2>
         </div>
       </div>
+      <About />
       <Technologies />
       <Projects />
-      <About />
     </main>
   );
 }
