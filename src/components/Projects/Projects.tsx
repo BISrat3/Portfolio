@@ -4,8 +4,8 @@ import MenStore from './img/MenStore.png';
 import Movie from './img/movie_app.png';
 import Simon from './img/simongame.png';
 import Soccer from './img/Soccerplayer.png';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Projects() {
     return (
