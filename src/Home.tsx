@@ -3,7 +3,6 @@ import About from './components/About/About';
 import Navigation from './components/Navigation/Navigation';
 import Technologies from './components/Technologies/Technologies';
 import Projects from './components/Projects/Projects';
-
 import styles from './App.module.css';
 
 function App() {

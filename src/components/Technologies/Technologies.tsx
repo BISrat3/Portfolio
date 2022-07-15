@@ -4,13 +4,14 @@ import 'aos/dist/aos.css';
 import styles from './Technologies.module.css';
 import js from './img/js.png';
 import python from './img/python.png';
-import html from './img/html5.png';
+import html from './img/html.png';
 import css from './img/css.png';
 import react from './img/react.png';
 import mongodb from './img/mongodb.png';
 import express from './img/express.png';
 import sql from './img/sql.png';
-import typescript from './img/typescript.png';
+import typescript from './img/ts.png';
+import nodejs from './img/nodejs.png';
 
 function Technologies() {
     useEffect(() => {
@@ -61,8 +62,8 @@ function Technologies() {
                     <h2 className={styles.techHeader}>SQL</h2>
                 </div>
                 <div className={styles.iconContainer}>
-                    <img src={typescript} alt="typescript Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
-                    <h2 className={styles.techHeader}>TypeScript</h2>
+                    <img src={nodejs} alt="nodejs Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>NodeJs</h2>
                 </div>
             </div>
         </div>
