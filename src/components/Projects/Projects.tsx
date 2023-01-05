@@ -17,7 +17,7 @@ function Projects() {
                     <h2 className={styles.projectHeader}>Men's Store</h2>
                     <p className={`${styles.projectDesc} ${styles.projectFourDesc}`}>My app is called Men's Style Store App. It's a style app for men who have a hard time figuring out which products to buy and reviewing the item they selected and seeing other people's comments(CRUD functionality). This app allows consumers to comment on specific categories and to read the item's description and price and decide which item is good to buy in the future.</p>
                     <div className={styles.projectLinkContainer3}>
-                        <a href="https://bisrat3.github.io/Project1_Simon/" target='_blank' rel='noreferrer' className={styles.projectLink}>Live</a>
+                        <a href="https://mens-styles-store.herokuapp.com/" target='_blank' rel='noreferrer' className={styles.projectLink}>Live</a>
                         <a href='https://github.com/BISrat3/Style-App'
                         target='_blank' rel='noreferrer' className={styles.projectLink}>Github</a>
                     </div>
@@ -44,7 +44,7 @@ function Projects() {
                     <h2 className={styles.projectHeader}>Simon Game</h2>
                     <p className={styles.projectDesc}>Simon game instructs the player to follow the sequence of flashing buttons. To move to the next level the player must click the four colored buttons as Simon says. As a player identifies the pattern correctly, he/she moves to the next level and each evel of the game gets harder.</p>
                     <div className={styles.projectLinkContainer}>
-                        <a href='https://github.com/BISrat3/Project1_Simon' target='_blank' rel='noreferrer' className={styles.projectLink}>Live</a>
+                        <a href='https://bisrat3.github.io/Project1_Simon/' target='_blank' rel='noreferrer' className={styles.projectLink}>Live</a>
                         <a href='https://github.com/BISrat3/Project1_Simon' target='_blank' rel='noreferrer' className={styles.projectLink}>Github</a>
                     </div>
                 </div>
