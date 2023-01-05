@@ -17,7 +17,7 @@ function Projects() {
                     <h2 className={styles.projectHeader}>Men's Store</h2>
                     <p className={`${styles.projectDesc} ${styles.projectFourDesc}`}>My app is called Men's Style Store App. It's a style app for men who have a hard time figuring out which products to buy and reviewing the item they selected and seeing other people's comments(CRUD functionality). This app allows consumers to comment on specific categories and to read the item's description and price and decide which item is good to buy in the future.</p>
                     <div className={styles.projectLinkContainer3}>
-                        <a href="https://mens-styles-store.herokuapp.com/" target='_blank' rel='noreferrer' className={styles.projectLink}>Live</a>
+                        <a href="https://bisrat3.github.io/Project1_Simon/" target='_blank' rel='noreferrer' className={styles.projectLink}>Live</a>
                         <a href='https://github.com/BISrat3/Style-App'
                         target='_blank' rel='noreferrer' className={styles.projectLink}>Github</a>
                     </div>
