@@ -16,7 +16,7 @@ function Projects() {
                 <div className={styles.projectImgContainer}><img src={AmazonClone} alt='Amazon clone application ' className={styles.projectImg} /></div>
                 <div className={styles.project}>
                     <h2 className={styles.projectHeader}>Amazon Clone</h2>
-                    <p className={`${styles.projectDesc} ${styles.projectFourDesc}`}>My app is called Amazon Clone App. It's an ecommerce site for customer who have a hard time figuring out which products to buy and reviewing the item they selected and seeing other people's comments(CRUD functionality). This app allows consumers to buy items from the sites. </p>
+                    <p className={`${styles.projectDesc} ${styles.projectFourDesc}`}>My app is called Amazon Clone App. It's an e-commerce site for customers who have a hard time figuring out which products to buy at any time and place. Customers of the app can easily register on the site and buy items they would like to after signing in. They can add and remove items from the basket. The site provides different payment methods for customers to order items.</p>
                     <div className={styles.projectLinkContainer3}>
                         <a href="https://challenge-12a45.web.app/" target='_blank' rel='noreferrer' className={styles.projectLink}>Live</a>
                         <a href='https://github.com/BISrat3/amazon-clone-react'
