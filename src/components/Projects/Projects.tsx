@@ -4,6 +4,7 @@ import MenStore from './img/MenStore.png';
 import Movie from './img/movie_app.png';
 import Simon from './img/simongame.png';
 import Soccer from './img/Soccerplayer.png';
+import AmazonClone from './img/AmazonClone.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -11,6 +12,18 @@ function Projects() {
     return (
         <div className={styles.projectComponentContainer} id='projects'>
             <h1 className={styles.headerOne}>PROJECTS</h1>
+            <div className={`${styles.projectContainer} ${styles.project4}`} data-aos='flip-left' data-aos-once='true'>
+                <div className={styles.projectImgContainer}><img src={AmazonClone} alt='Amazon clone application ' className={styles.projectImg} /></div>
+                <div className={styles.project}>
+                    <h2 className={styles.projectHeader}>Amazon Clone</h2>
+                    <p className={`${styles.projectDesc} ${styles.projectFourDesc}`}>My app is called Amazon Clone App. It's an ecommerce site for customer who have a hard time figuring out which products to buy and reviewing the item they selected and seeing other people's comments(CRUD functionality). This app allows consumers to buy items from the sites. </p>
+                    <div className={styles.projectLinkContainer3}>
+                        <a href="https://challenge-12a45.web.app/" target='_blank' rel='noreferrer' className={styles.projectLink}>Live</a>
+                        <a href='https://github.com/BISrat3/amazon-clone-react'
+                        target='_blank' rel='noreferrer' className={styles.projectLink}>Github</a>
+                    </div>
+                </div>
+            </div>
             <div className={`${styles.projectContainer} ${styles.project4}`} data-aos='flip-left' data-aos-once='true'>
                 <div className={styles.projectImgContainer}><img src={MenStore} alt='Mens store application ' className={styles.projectImg} /></div>
                 <div className={styles.project}>
