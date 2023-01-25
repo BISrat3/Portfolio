@@ -61,6 +61,7 @@
     justify-content: center;
     width: 40px;
     filter: grayscale(100%);
+    border-radius: 20px;
 }
 
 .imgLink:hover {
