@@ -5,6 +5,7 @@ import Movie from './img/movie_app.png';
 import Simon from './img/simongame.png';
 import Soccer from './img/Soccerplayer.png';
 import AmazonClone from './img/AmazonClone.png'
+import LinkedInclone from './img/LinkedInclone.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -32,6 +33,18 @@ function Projects() {
                     <div className={styles.projectLinkContainer3}>
                         <a href="https://mens-styles-store.herokuapp.com/" target='_blank' rel='noreferrer' className={styles.projectLink}>Live</a>
                         <a href='https://github.com/BISrat3/Style-App'
+                        target='_blank' rel='noreferrer' className={styles.projectLink}>Github</a>
+                    </div>
+                </div>
+            </div>
+            <div className={`${styles.projectContainer} ${styles.project4}`} data-aos='flip-left' data-aos-once='true'>
+                <div className={styles.projectImgContainer}><img src={LinkedInclone} alt='LinkedIn clone application ' className={styles.projectImg} /></div>
+                <div className={styles.project}>
+                    <h2 className={styles.projectHeader}>LinkedIn Clone</h2>
+                    <p className={`${styles.projectDesc} ${styles.projectFourDesc}`}>My app is called LinkedIn Clone App. </p>
+                    <div className={styles.projectLinkContainer3}>
+                        <a href="https://linkedin-clone-51f76.web.app" target='_blank' rel='noreferrer' className={styles.projectLink}>Live</a>
+                        <a href='https://github.com/BISrat3/linkedin-clone'
                         target='_blank' rel='noreferrer' className={styles.projectLink}>Github</a>
                     </div>
                 </div>
