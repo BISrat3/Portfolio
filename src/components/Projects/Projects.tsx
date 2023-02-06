@@ -41,7 +41,7 @@ function Projects() {
                 <div className={styles.projectImgContainer}><img src={LinkedInclone} alt='LinkedIn clone application ' className={styles.projectImg} /></div>
                 <div className={styles.project}>
                     <h2 className={styles.projectHeader}>LinkedIn Clone</h2>
-                    <p className={`${styles.projectDesc} ${styles.projectFourDesc}`}>My app is called LinkedIn Clone App. The app allows the user to post once they signed in. </p>
+                    <p className={`${styles.projectDesc} ${styles.projectFourDesc}`}>My app is called LinkedIn Clone App. The app allows the user to post once they have signed in. Only authenticated users are allowed to see others and be able to the new post. </p>
                     <div className={styles.projectLinkContainer3}>
                         <a href="https://linkedin-clone-51f76.web.app" target='_blank' rel='noreferrer' className={styles.projectLink}>Live</a>
                         <a href='https://github.com/BISrat3/linkedin-clone'
